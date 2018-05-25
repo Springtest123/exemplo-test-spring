@@ -6,8 +6,14 @@ package exemplo.hello;
  */
 public class App 
 {
+	
+	
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	System.out.println(getGreeting());
     }
+
+	public static String getGreeting() {
+		return "Hello, World!" ; //selecionar e clicar Refactor -> extract class...
+	}
 }
